@@ -1,7 +1,7 @@
 def my_each(array) 
   counter = 0
-  while array(counter) do |element|
-    puts element
+  while counter < array.length do
+    array[counter]
     counter += 1
   end
 end
